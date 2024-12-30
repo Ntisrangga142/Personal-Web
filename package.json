@@ -1,0 +1,23 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "Website Personal Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntisrangga142/Personal-Web.git"
+  },
+  "author": "Titus Rangga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ntisrangga142/Personal-Web/issues"
+  },
+  "homepage": "https://github.com/Ntisrangga142/Personal-Web#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "hbs": "^4.2.0"
+  }
+}

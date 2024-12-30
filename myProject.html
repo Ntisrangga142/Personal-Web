@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+
+    <link rel="icon" href="assets/logo.jpg" />
+
+    <!-- CSS 3 -->
+    <link rel="stylesheet" href="css/global-font.css"  />
+    <link rel="stylesheet" href="css/style.css"  />
+    <link rel="stylesheet" href="css/projectStyle.css"  />
+
+    <!-- Javscript -->
+
+    <!-- Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbarLeft">
+        <a class="webLogo" href="index.html">
+          <img class="imgLogo" src="assets/logo-removebg-preview.png" alt="web-logo" />
+          <h1 class="titleWeb">R-Codes</h1>
+        </a>
+      </div>
+
+      <div class="navbarCenter">
+        <ul class="navbarLinks">
+          <li><a href="index.html" class="link">Home</a></li>
+          <li><a href="myProject.html" class="linkActive">My Project</a></li>
+        </ul>
+      </div>
+
+      <div class="navbarRight">
+        <a href="contact.html" class="contactLink">Contact Me</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="projectForm">
+        <form class="containerForm" onsubmit="addProject(event)">
+          <div class="containerTitleForm">
+            <h1 class="titleForm">Add My Project</h1>
+          </div>
+
+          <!-- Project Name -->
+          <div class="containerProjectName">
+            <label for="projectName">Project Name</label>
+            <input type="text" id="projectName" name="projectName" class="projectName" required>
+          </div>
+      
+          <!-- Start Date -->
+          <div class="containerStartDate">
+            <label for="startDate">Start Date</label>
+            <input type="date" id="startDate" name="startDate" class="startDate" required>
+          </div>
+
+          <!-- End Date -->
+          <div class="containerEndDate">
+            <label for="endDate">End Date</label>
+            <input type="date" id="endDate" name="endDate" class="endDate" required>
+          </div>
+
+          <!-- Description -->
+          <div class="containerDescription">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" class="description" rows="5"  required></textarea>
+          </div>
+
+          <!-- Technologies -->
+          <div class="containerTechnologies">
+            <label>Technologies</label>
+            <div class="checkboxGroup">
+              <label><input type="checkbox" name="technologies" value="NodeJS" class="checkboxItem1"> Node JS</label>
+              <label><input type="checkbox" name="technologies" value="ReactJS" class="checkboxItem2"> React JS</label>
+              <label><input type="checkbox" name="technologies" value="Html5" class="checkboxItem3"> HTML</label>
+              <label><input type="checkbox" name="technologies" value="Javascript" class="checkboxItem4"> Javascript</label>
+            </div>
+          </div>
+      
+          <!-- Upload Image -->
+          <div class="containerUploadImage">
+            <label for="uploadImage">Upload Image</label>
+            <input type="file" id="uploadImage" name="uploadImage"  class="uploadImage" accept="image/*" required>
+          </div>
+      
+          <!-- Submit Button -->
+          <div class="containerSubmit">
+            <button type="submit" class="submitButton">Submit</button>
+          </div>
+      </section>
+
+      <hr />
+
+      <div class="projectTitle">
+        <h1>My Project</h1>
+      </div>
+
+      <section id="projectContainer" class="projectContainer">
+        
+        <div class="noProject">
+          <hr/>
+          <h2>--- There is No Project ---</h2>
+          <hr/>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- Javscript -->
+    <script src="js/myProject.js"></script>
+  </body>
+</html>
