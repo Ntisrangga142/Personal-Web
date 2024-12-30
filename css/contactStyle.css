@@ -1,0 +1,68 @@
+/* CONTACT ME STYLES */
+
+.contact-section h1 {
+    background-color: #8b989a;
+
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px #616a6c;
+}
+
+.contact-section label {
+    background-color: #8b989a;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form {
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #8b989a;
+
+    box-shadow: 5px 5px 10px 5px #616a6c; 
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px;
+    background-color: #8b989a;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    background-color: #8b989a;
+  }
+  
+  .form-input {
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    padding: 7px;
+    font-size: 18px;
+    background-color: #8b989a;
+  }
+
+  .form-input option {
+    color :aliceblue
+  }
+  
+  .form-submit-button {
+    color: white;
+    background-color: #616a6c;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
